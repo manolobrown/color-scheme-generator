@@ -1,0 +1,17 @@
+@use "../util" as *;
+
+button {
+  max-width: rem(123);
+  background: var(--blue);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: rem(4);
+  border: 0;
+  color: #fff;
+  font-size: rem(12);
+  transition: hover 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--blue-offset);
+  }
+}

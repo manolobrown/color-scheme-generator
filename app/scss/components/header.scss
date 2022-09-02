@@ -1,0 +1,17 @@
+@use "../util" as *;
+header {
+  background-color: var(--midnight);
+  display: flex;
+  align-items: center;
+  column-gap: rem(15);
+  padding: rem(24) rem(15);
+  justify-content: space-evenly;
+
+  input,
+  select,
+  button {
+    flex: 0 0 100%;
+    width: 100%;
+    height: rem(43);
+  }
+}

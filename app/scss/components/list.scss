@@ -1,0 +1,36 @@
+@use "../util" as *;
+
+$colors: "1" #f55a5a, "2" #2b283a, "3" #fbf3ab, "4" #aad1b6, "5" #a626d3;
+
+@each $name, $color in $colors {
+  .colors__list li:nth-child(#{$name}) {
+    background-color: $color;
+  }
+}
+
+.colors__list,
+.colors-hex__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.colors__list,
+.colors-hex__list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.colors__list {
+  min-height: rem(415);
+}
+
+.colors-hex__list {
+  color: #d5d4d8;
+  font-size: rem(12);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: rem(46);
+  background-color: var(--midnight);
+}
