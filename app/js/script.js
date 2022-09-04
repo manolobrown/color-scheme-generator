@@ -1,8 +1,3 @@
-//TODO using color schemes api https://www.thecolorapi.com/docs#schemes
-
-//TODO create function based on color input docs https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
-
-//TODO use fetch api function https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 let color;
 let mode;
 
