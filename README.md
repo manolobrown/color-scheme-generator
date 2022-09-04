@@ -23,8 +23,7 @@ This is a solution to the [GitHub user search app challenge on Frontend Mentor](
 Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
+- Get color scheme on button click
 
 ### Screenshot
 
@@ -32,7 +31,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/planets-fact-site-using-vue-hLERWrGyj](https://www.frontendmentor.io/solutions/planets-fact-site-using-vue-hLERWrGyj)
 - Live Site URL: [https://optimistic-williams-35d1ee.netlify.app/](https://optimistic-williams-35d1ee.netlify.app/)
 
 ## My process
@@ -42,23 +40,21 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
-- [Vue JS](https://vuejs.org/) - JS library
+- JavaScript
 
 ### What I learned
 
-This challenge further ingrained the fundamentals of using vue router and vue's basic templating engine
+This challenge further ingrained the fundamentals of using HTML, CSS and Javascript
 
 ### Continued development
 
-I really need to focus on how to write cleaner jS. VueJS in particular is very easy to get started and there is tons of information online on how to write simple applications.
+I really need to focus on how to write cleaner jS.
 
 ### Useful resources
 
 - [YouTube](https://www.youtube.com) - YouTube is always open and it's really easy to learn how other people approach code.
-- [VueJS](https://vuejs.org/) - For this project I constantly went back to learn all the ins and out of Vue.
 
 ## Author
 
 - Website - [Manuel Pena](https://www.mannydevelops.com/)
-- Frontend Mentor - [@manolobrown](https://www.frontendmentor.io/profile/manolobrown)
 - Twitter - [@manolobrown](https://www.twitter.com/manolobrown)
